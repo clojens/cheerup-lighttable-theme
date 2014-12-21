@@ -1,5 +1,5 @@
 {:name "Cheerup theme"
- :version "0.1.1"
+ :version "0.1.0"
  :author "Rob Jentzema"
  :source "https://github.com/clojens/cheerup-lighttable-theme"
  :desc "A colorful theme designed to make you briefly happier."
