@@ -1,27 +1,33 @@
 = Cheerup theme
 :experimental:
 
-A Light Table editor theme based on the https://github.com/Misophistful/borealis-lighttable-theme[Borealis theme]
+A Light Table IDE theme based on the https://github.com/Misophistful/borealis-lighttable-theme[Borealis theme]
 and the http://www.colourlovers.com/palette/1930/cheer_up_emo_kid#[Cheer up emo kid] colorscheme.
 
 image:palette.png[]
 
 == Installation instructions
 
-. Open Light Table, then command bar kbd:[Ctrl] + kbd:[Space]
-. Type ``showpl'' and hit kbd:[Enter]
-. Search for 'cheerup' -> install
+To first _download_ and _install_ the plugin:
 
-Or you can clone this repository inside your `~/.config/LightTable/plugins`footnote:[or equivalent Mac/Windows]
-folder in order for Light Table to pick up. Then:
+. open the Light Table editor
+. open transient command panel kbd:[Ctrl] + kbd:[Space]
+. type ``plugin'' and hit kbd:[Enter]
+. search ``cheerup'' in ``available'' tab
+. click the ``install'' button to the far right
 
-. Restart LT and open `user.behaviors` by kbd:[Enter] + kbd:[Space] type 'ubeh' then kbd:[Enter]
-. Find and add under the `:editor` key, the theme as below:
+Then to _activate_, do as you would normally do e.g.:
+
+. open transient commnd bar again kbd:[Enter] + kbd:[Space]
+. type ``ubeh'' then kbd:[Enter] to open `user.behaviors` file
+. find and add under the `:editor` key, the theme as below:
 
 [source,cljs]
 ----
 ;; ~/.config/LightTable/settings/user.behaviors
-:editor [(:lt.objs.style/set-theme \"cheerup\")]
+[
+  [:editor :lt.objs.style/set-theme "cheerup"]
+]
 ----
 
 
