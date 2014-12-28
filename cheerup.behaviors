@@ -1,3 +1,1 @@
-[
-  [:app :lt.objs.style/provide-theme "cheerup" "cheerup.css"]
-]
+{:+ {:app [(:lt.objs.style/provide-theme "cheerup" "cheerup.css")]}}
